@@ -3,7 +3,7 @@ import { MongoClient, ServerApiVersion } from 'mongodb';
 
 dotenv.config();
 
-const uri = process.env.STRING_URI;
+const uri = "mongodb+srv://youssouph:g7s2aH9MgAZbNVX@fullstack-mevn.771oyqc.mongodb.net/?retryWrites=true&w=majority";
 const DATABASE = "blog";
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 })
